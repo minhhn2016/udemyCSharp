@@ -1,0 +1,6 @@
+c:\users\minh hoang\documents\visual studio 2017\Projects\udemyCSharp_s8_67\udemyCSharp_s8_67\bin\Debug\udemyCSharp_s8_67.exe.config
+c:\users\minh hoang\documents\visual studio 2017\Projects\udemyCSharp_s8_67\udemyCSharp_s8_67\bin\Debug\udemyCSharp_s8_67.exe
+c:\users\minh hoang\documents\visual studio 2017\Projects\udemyCSharp_s8_67\udemyCSharp_s8_67\bin\Debug\udemyCSharp_s8_67.pdb
+c:\users\minh hoang\documents\visual studio 2017\Projects\udemyCSharp_s8_67\udemyCSharp_s8_67\obj\Debug\udemyCSharp_s8_67.csprojResolveAssemblyReference.cache
+c:\users\minh hoang\documents\visual studio 2017\Projects\udemyCSharp_s8_67\udemyCSharp_s8_67\obj\Debug\udemyCSharp_s8_67.exe
+c:\users\minh hoang\documents\visual studio 2017\Projects\udemyCSharp_s8_67\udemyCSharp_s8_67\obj\Debug\udemyCSharp_s8_67.pdb
