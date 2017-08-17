@@ -85,15 +85,12 @@ namespace udemyCSharp_s6_55_ArraysAndLists
                 Console.WriteLine("Enter a number:");
                 var input4 = Console.ReadLine();
 
-                if (input4.ToLower() == "quit" || String.IsNullOrWhiteSpace(input4))
+                if (input4.ToLower() == "quit" || string.IsNullOrWhiteSpace(input4))
                 {
                     break;
                 }
-                else
-                {
-                    var number = Convert.ToInt32(input4);
-                    numbers.Add(number);
-                }
+                var number = Convert.ToInt32(input4);
+                numbers.Add(number);
             }
             foreach (var number in numbers)
             {
@@ -102,9 +99,7 @@ namespace udemyCSharp_s6_55_ArraysAndLists
             }
             Console.WriteLine("Unique numbers are: ");
             foreach (var number in uniques1)
-            {
                 Console.Write(number + " ");
-            }
 
             // Code to demo Exercise 5.
             // Program asks the user to supply a list of comma separated numbers.
@@ -120,42 +115,30 @@ namespace udemyCSharp_s6_55_ArraysAndLists
                 Console.WriteLine("Enter a list of at least 5 comma separated numbers:");
                 var input3 = Console.ReadLine();
 
-                if (!String.IsNullOrWhiteSpace(input3))
+                if (!string.IsNullOrWhiteSpace(input3))
                 {
                     elements = input3.Split(',');
                     if (elements.Length >= 5)
-                    {
                         break;
-                    }
                 }
                 Console.WriteLine("Invalid list");
             }
             var numbers1 = new List<int>();
             foreach (var number in elements)
-            {
                 numbers1.Add(Convert.ToInt32(number));
-            }
             var smallest = new List<int>();
             while (smallest.Count < 3)
             {
                 var min = numbers1[0];
                 foreach (var number in numbers1)
-                {
                     if (number < min)
-                    {
                         min = number;
-                    }
-                }
                 smallest.Add(min);
                 numbers1.Remove(min);
             }
             Console.WriteLine("3 smallest numbers:");
             foreach (var number in smallest)
-            {
                 Console.Write(number + " ");
-            }
-            
-            
         }
     }
 }
