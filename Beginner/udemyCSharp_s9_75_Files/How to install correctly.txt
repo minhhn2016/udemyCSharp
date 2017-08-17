@@ -1,0 +1,18 @@
+Q : Where do i extract the files i downloaded?
+
+A : Open the file you downloaded with .rar . Then, drag/drop or copy/paste the files inside the folder 
+"Files", into the Editor Data folder which can be found at this location : 
+
+PC – My Documents > Sports Interactive > Football Manager 2017 > editor data
+MAC – Documents > Sports Interactive > Football Manager 2017 > editor data .
+
+If the folder "Editor Data" is not there , you have to create it, ONLY with this name , or else the files 
+won't work correctly.
+
+
+
+Q : How do I load my file into my game inside FM?
+
+A : Extract the files to : C:\Users\user\Documents\Sports Interactive\Football Manager 2017\editor data. If editor data folder is not there, create one with this name only. Other names will not recognize the files inside the game. 
+
+Then New Career Game. Choose the Football Manager 2017 database option and select my files. You are ready to create an updated new game.
